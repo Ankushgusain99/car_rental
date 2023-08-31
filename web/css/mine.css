@@ -1,0 +1,65 @@
+body{
+    background: grey;
+}
+
+.carousel-inner .carousel-item img {
+    cursor: pointer;
+    height: 600px;
+    width: 50%;
+    object-fit: scale-down;
+    background: grey;
+    /* border: 2px solid black; */
+}
+
+.carousel-inner{
+    position: absolute;
+}
+
+.carousel-inner .car-details{
+    position: absolute;
+    top: 30px;
+    left:600px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+
+.carousel {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#carouselExampleIndicators h1 {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#carouselExampleIndicators .carousel-control-prev .carousel-control-prev-icon {
+    background-color: black;
+    padding: 1px;
+    border-radius: 20px;
+}
+
+#carouselExampleIndicators .carousel-control-next .carousel-control-next-icon {
+    background-color: black;
+    padding: 1px;
+    border-radius: 20px;
+    
+}
+.carousel-control-next, .carousel-control-prev-icon {
+    top: 300px;
+
+    
+}
+
+.carousel-control-next, .carousel-control-prev{
+    top: 300px;
+} 
+
+/*.container{
+    margin-top: 600px;
+}*/
